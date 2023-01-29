@@ -43,14 +43,14 @@ class _RotatedContainerState extends State<RotatedContainer>
             height: 100,
             width: 100,
             decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.amber,
                 borderRadius: BorderRadius.circular(10),
                 boxShadow: [
                   BoxShadow(
                       color: Colors.black.withOpacity(0.5),
                       spreadRadius: 5,
                       blurRadius: 10,
-                      offset: Offset(0, 3))
+                      offset: const Offset(0, 3))
                 ]),
           ),
         );
